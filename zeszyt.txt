@@ -558,3 +558,11 @@ background - ustala tło bloku.
 Model blokowy w CSS pełni funkcję kontroli i organizacji struktury strony internetowej. Pozwala na tworzenie układów, sekcji i bloków na stronie, które są wyraźnie rozdzielone i wyświetlane jeden pod drugim.
 4. Czym charakteryzuje się dokument HTML po sformatowaniu przy użyciu stylu CSS?
 Po sformatowaniu dokumentu HTML przy użyciu stylu CSS dokument zyskuje spersonalizowany wygląd. Elementy HTML, takie jak nagłówki, paragrafy, listy, itp., zostają rozmieszczone jako bloki na stronie zgodnie z zastosowanymi stylami. To sprawia, że strona staje się czytelniejsza i atrakcyjniejsza wizualnie, a także dostosowuje się do różnych urządzeń i rozdzielczości ekranów.
+---------------------------------------------------------------------------------------------------------
+3.4 Pozycjonowanie elementów w CSS
+
+
+1. Jaka jest rola pozycjonowania elementów?
+Rola pozycjonowania elementów to kontrolowanie rozmieszczenia elementów na stronie.
+
+2. Wymień właściwości i wartości dotyczące pozycjonowaniaWłaściwości i wartości związane z pozycjonowaniem: position, top, right, bottom, left, z-index, float, clear, display, margin, padding, border.
