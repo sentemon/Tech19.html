@@ -543,4 +543,18 @@ Oczywiście, mogę pomóc z informacjami dotyczącymi CSS.
 - Możesz użyć wartości koloru w postaci nazwy, na przykład "red" lub "blue".
 - Możesz użyć kodu koloru w formie szesnastkowej, na przykład "#FF0000" dla czerwieni.
 - Możesz użyć funkcji rgb() lub rgba() do dokładnego określenia koloru, np. "rgb(255, 0, 0)" dla czerwieni.
+---------------------------------------------------------------------------------------------------------
+3.3 Model blokowy w CSS
+1. Zdefiniuj strukturę układu blokowego
+Struktura układu blokowego w CSS polega na organizowaniu elementów na stronie internetowej w bloki, które zajmują całą dostępną szerokość i są wyświetlane jeden pod drugim. To umożliwia tworzenie pionowych kolumn i sekcji na stronie.
 
+2. Wymień właściwości i wartości stosowane w modelu blokowym
+width - określa szerokość bloku.
+height - określa wysokość bloku.
+border - definiuje obramowanie wokół bloku.
+background - ustala tło bloku.
+
+3. Jaką funkcję pełni model blokowy w CSS?
+Model blokowy w CSS pełni funkcję kontroli i organizacji struktury strony internetowej. Pozwala na tworzenie układów, sekcji i bloków na stronie, które są wyraźnie rozdzielone i wyświetlane jeden pod drugim.
+4. Czym charakteryzuje się dokument HTML po sformatowaniu przy użyciu stylu CSS?
+Po sformatowaniu dokumentu HTML przy użyciu stylu CSS dokument zyskuje spersonalizowany wygląd. Elementy HTML, takie jak nagłówki, paragrafy, listy, itp., zostają rozmieszczone jako bloki na stronie zgodnie z zastosowanymi stylami. To sprawia, że strona staje się czytelniejsza i atrakcyjniejsza wizualnie, a także dostosowuje się do różnych urządzeń i rozdzielczości ekranów.
