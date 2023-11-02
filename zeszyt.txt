@@ -471,15 +471,15 @@ musimy użyć znacznika <img> wraz ze atrybutem src, czyli <img src="adres do zd
 
 
 4. Wykonaj ćwiczenia 1,2,3,4,5 ze strony 54 
-1. w folderze
+1. w folderze pod nazwą zad2.5
 
-2.
+2. w folderze pod nazwą zad2.5
 
-3.
+3. działa mp3, wav
 
 4. osadzenia plików wideo i audio
 
-5.
+5. w folderze pod nazwą zad2.5
 ---------------------------------------------------------------------------------------------------------
 Lekcja 8
 3.1 Kaskadowość stylów w dokumentach html CSS
@@ -565,4 +565,5 @@ Po sformatowaniu dokumentu HTML przy użyciu stylu CSS dokument zyskuje spersona
 1. Jaka jest rola pozycjonowania elementów?
 Rola pozycjonowania elementów to kontrolowanie rozmieszczenia elementów na stronie.
 
-2. Wymień właściwości i wartości dotyczące pozycjonowaniaWłaściwości i wartości związane z pozycjonowaniem: position, top, right, bottom, left, z-index, float, clear, display, margin, padding, border.
+2. Wymień właściwości i wartości dotyczące pozycjonowaniaWłaściwości i wartości związane z pozycjonowaniem:
+position, top, right, bottom, left, z-index, float, clear, display, margin, padding, border.
