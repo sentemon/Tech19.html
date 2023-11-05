@@ -567,3 +567,13 @@ Rola pozycjonowania elementów to kontrolowanie rozmieszczenia elementów na str
 
 2. Wymień właściwości i wartości dotyczące pozycjonowaniaWłaściwości i wartości związane z pozycjonowaniem:
 position, top, right, bottom, left, z-index, float, clear, display, margin, padding, border.
+---------------------------------------------------------------------------------------------------------
+3.5 Praktyczne zastosowania CSS i HTML
+
+1. Zdefiniuj przykładowe formatowanie formularza
+
+2. Zdefiniuj przykładowe podzielenie strony na bloki
+
+
+3. Wykonaj ćwiczenia 1,2 i 3 ze strony 81; 4 i 5 ze strony 82 i ćwiczenie nr 6 ze strony 83
+
