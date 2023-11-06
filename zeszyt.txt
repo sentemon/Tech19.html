@@ -573,6 +573,7 @@ position, top, right, bottom, left, z-index, float, clear, display, margin, padd
 
 1. Zdefiniuj przykładowe formatowanie formularza
 
+
 2. Zdefiniuj przykładowe podzielenie strony na bloki
 
 
