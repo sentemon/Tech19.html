@@ -576,6 +576,16 @@ position, top, right, bottom, left, z-index, float, clear, display, margin, padd
 
 2. Zdefiniuj przykładowe podzielenie strony na bloki
 
+<h1>ZADANIE 1</h1>
+     <img src="C:\student\Ivan Sentemon\kwadrat.jpg" alt="4kwadraty" usemap="#kwadrat" width="396px" height="397px">
+     
+     <map name="kwadrat">
+       <area shape="react" coords="0, 0, 198, 198" alt="lew. gor." href="https://ivan.sentemon.com/index.html">
+       <area shape="react" coords="0, 198, 198, 396" alt="lew. dol." href="https://ivan.sentemon.com/contact_information.html">
+       <area shape="react" coords="198, 0, 396, 198" alt="praw. gor." href="https://ivan.sentemon.com/test.html">
+       <area shape="react" coords="198, 198, 396, 396" alt="praw. dol." href="https://ivan.sentemon.com/authorization.php">
+     </map>
+
 
 3. Wykonaj ćwiczenia 1,2 i 3 ze strony 81; 4 i 5 ze strony 82 i ćwiczenie nr 6 ze strony 83
 
