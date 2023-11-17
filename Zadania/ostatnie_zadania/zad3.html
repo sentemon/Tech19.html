@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player Controls</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        video {
+            width: 640px;
+            height: 360px;
+        }
+
+        button {
+            background-color: #000f6f; /* Niebieski kolor przycisku */
+            color: #fff; /* Biały kolor tekstu */
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #4e45a0;
+        }
+    </style>
+</head>
+<body>
+
+<video id="myVideo" width="640" height="360" controls>
+    <source src="video.mov" type="video/mp4">
+    Twoja przeglądarka nie obsługuje znacznika wideo.
+</video>
+
+<div>
+    <button onclick="pauseVideo()">PAUSE</button>
+    <button onclick="stopVideo()">STOP</button>
+    <button onclick="startVideo()">START</button>
+    <button onclick="recordVideo()">REC</button>
+</div>
+
+<script>
+    var video = document.getElementById("myVideo");
+
+    function pauseVideo() {
+        video.pause();
+    }
+
+    function stopVideo() {
+        video.pause();
+        video.currentTime = 0;
+    }
+
+    function startVideo() {
+        video.play();
+    }
+
+    function recordVideo() {
+        console.log("Rozpoczęcie nagrywania...");
+    }
+</script>
+
+</body>
+</html>
