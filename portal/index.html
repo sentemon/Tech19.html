@@ -1,105 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portal PL</title>
     <style>
-        .naglowek {
-            text-align: center;
-            background-color: gray;
-            color: #fff; 
-        }
-        .aktualnosci {
-            background-color: #ccc;
-            color: #000;
-            width: 50%;
-        }
-        .aktualnosci h2 {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-        }
-        .aktualnosci p {
-            color: #000;
-        }
-        .aktualnosci a {
-            color: #000;
-        }
+      .naglowek {
+        text-align: center;
+        background-color: gray;
+        color: #fff;
+      }
+      .aktualnosci {
+        background-color: #ccc;
+        color: #000;
+        width: 50%;
+      }
+      .aktualnosci h2 {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+      .aktualnosci p {
+        color: #000;
+      }
+      .aktualnosci a {
+        color: #000;
+      }
 
-        .humor {
-            background-color: #ccc;
-            color: #000;
-            width: 50%;
-        }
-        .humor h2 {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-        }
+      .humor {
+        background-color: #ccc;
+        color: #000;
+        width: 50%;
+      }
+      .humor h2 {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+      .zdj_humor {
+        display: flex;
+        justify-content: space-around;
+      }
 
-        .sport {
-            background-color: #ccc;
-            color: #000;
-            width: 50%;
-        }
-        .sport h2 {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-        }
-        .sport img {
-            width: 70%;
-            margin-left: 15%;
-        }
+      .sport {
+        background-color: #ccc;
+        color: #000;
+        width: 50%;
+      }
+      .sport h2 {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+      .sport img {
+        width: 70%;
+        margin-left: 15%;
+      }
 
-        .muzyka {
-            background-color: #ccc;
-            color: #000;
-            width: 50%;
-        }
-        .muzyka h2 {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-        }
+      .muzyka {
+        background-color: #ccc;
+        color: #000;
+        width: 50%;
+      }
+      .muzyka h2 {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+      .zdj_muzyka {
+        display: flex;
+      }
+
+      .galerie {
+        background-color: #ccc;
+        color: #000;
+        width: 50%;
+      }
+      .galerie h2 {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+      }
+      .zdj_galerie {
+        display: flex;
+        justify-content: space-around;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="naglowek">
-        <header><h1>Portal PL</h1></header>
+      <header><h1>Portal PL</h1></header>
     </div>
-    
+
     <div class="aktualnosci">
-        <h2>Aktualności</h2>
-        <p>3 kwietnia<br>
-        - Wielkanocna zawierucha [<a href="">Czytaj wiecej</a>]</p>
+      <h2>Aktualności</h2>
+      <p>
+        3 kwietnia<br />
+        - Wielkanocna zawierucha [<a href="">Czytaj wiecej</a>]
+      </p>
 
-        <p>15 marca<br>
-        - Wiosna w pełni [<a href="">Czytaj wiecej</a>]</p>
-        
-        <p>10 marca<br>
-        - Katarzyna Mularczyk nie żyje [<a href="">Czytaj wiecej</a>]</p>
+      <p>
+        15 marca<br />
+        - Wiosna w pełni [<a href="">Czytaj wiecej</a>]
+      </p>
 
-        <p>9 marca<br>
-        - Objawienia metla [<a href="">Czytaj wiecej</a>]</p>
+      <p>
+        10 marca<br />
+        - Katarzyna Mularczyk nie żyje [<a href="">Czytaj wiecej</a>]
+      </p>
 
-        <p>15 lutego<br>
-        - Magdalena Ogórek dzwoni do Ch... [<a href="">Czytaj wiecej</a>]</p>
-        </p>
+      <p>
+        9 marca<br />
+        - Objawienia metla [<a href="">Czytaj wiecej</a>]
+      </p>
+
+      <p>
+        15 lutego<br />
+        - Magdalena Ogórek dzwoni do Ch... [<a href="">Czytaj wiecej</a>]
+      </p>
     </div>
 
     <div class="humor">
-        <h2>humor</h2>
+      <h2>humor</h2>
+      <div class="zdj_humor">
+        <img src="zdj/humor1.jpg" alt="humor" width="50%" />
+        <img src="zdj/humor2.jpg" alt="humor" width="50%" />
+      </div>
     </div>
 
     <div class="sport">
-        <h2>sport</h2>
-        <img src="zdj/football.jpg" alt="football" width="100%">
+      <h2>sport</h2>
+      <img src="zdj/football.jpg" alt="football" width="100%" />
     </div>
 
     <div class="muzyka">
-        <h2>muzyka</h2>
+      <h2>muzyka</h2>
+      <div class="zdj_muzyka">
+        <iframe
+          width="50%"
+          height="315"
+          src="https://www.youtube.com/embed/9bZkp7q19f0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="50%"
+          height="315"
+          src="https://www.youtube.com/embed/9bZkp7q19f0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
-</body>
+
+    <div class="galerie">
+      <h2>galerie</h2>
+      <div class="zdj_galerie">
+        <img src="zdj/galeria1.jpg" alt="galeria" width="150px" />
+      </div>
+    </div>
+  </body>
 </html>
