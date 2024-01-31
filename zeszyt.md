@@ -826,4 +826,21 @@ Po zakończeniu instalacji Joomla!, katalog instalacyjny zawiera poufne informac
 Usunięcie tego katalogu jest kluczowe dla zabezpieczenia strony przed nieautoryzowanym dostępem i atakami. 
 W przeciwnym razie, ktoś mógłby uzyskać dostęp do kluczowych informacji, co stanowiłoby zagrożenie dla bezpieczeństwa strony internetowej.
 
-7. Wykonaj ćwiczenia 1,2,3 ze strony 181 
+7. Wykonaj ćwiczenia 1,2,3 ze strony 181
+---------------------------------------------------------------------------------------------------------
+17 Instalacja CMS na lokalnym serwerze 
+ 
+1. Omów elementy składowe pakietu XAMPP
+
+2. Sprawdź na stronie projektu Joomla!, jakie dodatki są oferowane w ramach pakietu Bitnami
+XAMPP.Wyszukaj informacje na temat innych pakietów serwerowych odgrywających podobną rolę co 
+aplikacja XAMPP. Zapisz wyniki wyszukiwania
+
+3. Z jakich słów powstał akronim XAMPP?
+
+4. Do jakiego folderu należy wypakować pliki systemu CMS, aby zainstalować go za pomocą pakietu 
+XAMPP? Odpowiedź uzasadnij.  
+
+5. Używając XAMPP przeprowadź test poprawności działania interpretera PHP 
+
+6. Wykonaj ćwiczenie nr 2 ze strony 189 
