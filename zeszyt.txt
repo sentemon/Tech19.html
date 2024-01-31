@@ -1,4 +1,3 @@
-
 Lekcja 1
 
 1. Jak komunikujemy się przez internet?
@@ -762,8 +761,6 @@ adres - ftp://ftp.viperprint.pl
 login - takie jak przy rejestracji konta
 haslo- takie jak przy rejestracji konta
 
-
-
 6 Skonfiguruj połączenie ftp wykorzystując eksplorator plików windowsa. Wykonaj instrukcję takiego 
 połączenia – opis+screeny
 
@@ -772,3 +769,61 @@ połączenia – opis+screeny
 3. uzupełniamy pola: "serwer", "port: 21", "url: ftp://", "user", "haslo", "prywatny klucz SSH", 
 4. klikamy "polączyć się"
 (screeny pokazałem)
+---------------------------------------------------------------------------------------------------------
+15   Rodzaje systemów zarządzania treścią 
+ 
+1   Zdefiniuj CMS
+
+2   Omów rodzaje systemów  zarządzania treścią
+
+3   Jak nazywają się serwery cms o transparentnych konsolach?
+
+4   Jakie zastosowanie ma cms o nazwie moodle? 
+
+5   Wyszukaj dwa rozwiązania cms do tworzenia sklepu internetowego. Porównaj interface i 
+funkcjonalność tych rozwiązań 
+
+6   Czym różnią się cms komercyjne od rozwiązań open-source? 
+
+7   Co to są templatki i jaką rolę odgrywają w konfiguracji strony internetowej? 
+
+8   Wykonaj ćwiczenie nr 1 ze strony 164 
+---------------------------------------------------------------------------------------------------------
+16 Instalacja CMS w usłudze hostingowej 
+ 
+1. Omów wybrany rodzaj instalacji cms. Wykonaj instrukcję takiej instalacji– opis+screeny 
+  1.Instalacja WordPressa na serwerze hostingowym:
+  2. Logowanie do panelu hostingu
+  3. Wybór instalatora (WordPress)
+  4. Konfiguracja
+  5. Instalacja
+Po zakończeniu instalacji otrzymasz link do panelu administracyjnego WordPressa oraz link do strony.
+
+2. Opisz trzy metody instalacji systemu CMS 
+Automatyczna instalacja: Wykorzystuje narzędzia dostarczone przez hosting, które umożliwiają szybką i łatwą instalację CMS z poziomu panelu administracyjnego.
+Ręczna instalacja: Wymaga pobrania plików źródłowych CMS, przesłania ich na serwer poprzez FTP, a następnie wykonania procesu instalacyjnego przez przeglądarkę internetową.
+Instalacja z poziomu wiersza poleceń (CLI): Zaawansowana metoda, która wykorzystuje terminal do pobrania i zainstalowania CMS na serwerze.
+
+3. Jakie usługi i technologie webowe musi mieć serwer, aby zainstalować dowolny CMS?  
+Apache/Nginx: Do obsługi żądań HTTP.
+PHP: Wymagane przez większość CMS.
+MySQL/MariaDB: Baza danych, w której przechowywane są dane strony.
+FTP/SSH: Do przesyłania plików na serwer.
+
+4. Jakie parametry są istotne podczas wyboru usługi hostingowej? 
+Przestrzeń dyskowa: Wystarczająca ilość miejsca na przechowywanie plików strony.
+Transfer danych: Zapewniający odpowiednią przepustowość dla odwiedzających.
+Wsparcie dla PHP, MySQL: Wymagane przez większość systemów CMS.
+Bezpieczeństwo: Ochrona przed atakami DDoS
+Koszt
+
+5.Jaką rolę w procesie instalacji systemu CMS na zdalnym serwerze odgrywa klient FTP?  
+Klient FTP jest używany do przesyłania plików CMS z lokalnego komputera na serwer hostingowy. 
+Umożliwia także zarządzanie plikami na zdalnym serwerze.
+
+6. Dlaczego po instalacji CMS Joomla! należy usunąć katalog instalacyjny? 
+Po zakończeniu instalacji Joomla!, katalog instalacyjny zawiera poufne informacje. 
+Usunięcie tego katalogu jest kluczowe dla zabezpieczenia strony przed nieautoryzowanym dostępem i atakami. 
+W przeciwnym razie, ktoś mógłby uzyskać dostęp do kluczowych informacji, co stanowiłoby zagrożenie dla bezpieczeństwa strony internetowej.
+
+7. Wykonaj ćwiczenia 1,2,3 ze strony 181 
