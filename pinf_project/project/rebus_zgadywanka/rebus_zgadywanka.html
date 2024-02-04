@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rebus_zgadywanka.css" />
+    <style>
+      #submit-btn,
+      #back-btn {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+
+      #back-btn {
+        background-color: #3498db;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../index.html"
+      ><button id="back-btn">Wróć do głównej strony</button></a
+    ><br /><br /><br />
+    <div class="rebus-container" id="rebus-container-1">
+      <p>R E B U S 1</p>
+      <p>🔥 <span id="missing-letter-1">🧱</span></p>
+      <p>_ _ _ _ _ _ _ _</p>
+    </div>
+
+    <div class="rebus-container" id="rebus-container-2">
+      <p>R E B U S 2</p>
+      <p>🌊 <span id="missing-letter-2">🐦</span></p>
+      <p>_ _ _ _ _ _ _ _</p>
+    </div>
+
+    <div class="rebus-container" id="rebus-container-3">
+      <p>R E B U S 3</p>
+      <p>🌞 <span id="missing-letter-3">🍏</span></p>
+      <p>_ _ _ _ _ _ _ _</p>
+    </div>
+
+    <div class="rebus-container" id="rebus-container-4">
+      <p>R E B U S 4</p>
+      <p>🏞️ <span id="missing-letter-4">🚗</span></p>
+      <p>_ _ _ _ _ _ _ _</p>
+    </div>
+
+    <div class="rebus-container" id="rebus-container-5">
+      <p>R E B U S 5</p>
+      <p>⚡ <span id="missing-letter-5">💡</span></p>
+      <p>_ _ _ _ _ _ _ _</p>
+    </div>
+
+    <div class="input-container">
+      <label for="odpowiedz">Twoja odpowiedź: </label>
+      <input type="text" id="odpowiedz" placeholder="Wpisz odpowiedź" />
+      <button onclick="sprawdzOdpowiedz()">Sprawdź</button>
+    </div>
+
+    <div id="result"></div>
+    <script src="rebus_zgadywanka.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .options {
+    margin-left: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #219a52;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  /* Add your own styles for #quiz-container, if needed */
+  
+  /* Google Fonts - Roboto */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
