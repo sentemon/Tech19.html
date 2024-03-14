@@ -843,4 +843,4 @@ XAMPP? Odpowiedź uzasadnij.
 
 5. Używając XAMPP przeprowadź test poprawności działania interpretera PHP 
 
-6. Wykonaj ćwiczenie nr 2 ze strony 189 
+6. Wykonaj ćwiczenie nr 2 ze strony 189 .
