@@ -830,17 +830,26 @@ W przeciwnym razie, ktoś mógłby uzyskać dostęp do kluczowych informacji, co
 ---------------------------------------------------------------------------------------------------------
 17 Instalacja CMS na lokalnym serwerze 
  
-1. Omów elementy składowe pakietu XAMPP
+1. Elementy składowe pakietu XAMPP to:
+   - Apache, MySQL, PHP, Perl, phpMyAdmin
 
-2. Sprawdź na stronie projektu Joomla!, jakie dodatki są oferowane w ramach pakietu Bitnami
-XAMPP.Wyszukaj informacje na temat innych pakietów serwerowych odgrywających podobną rolę co 
-aplikacja XAMPP. Zapisz wyniki wyszukiwania
+2. Na stronie projektu Joomla! można sprawdzić, jakie dodatki są oferowane w ramach pakietu Bitnami XAMPP, jednakże w momencie mojej ostatniej aktualizacji wiedzy nie mam dostępu do internetu i nie mogę przeprowadzić bezpośredniego sprawdzenia. Bitnami oferuje zazwyczaj gotowe do użytku instalacje różnych aplikacji, w tym również Joomla!, co znacząco ułatwia proces instalacji i konfiguracji.
+   - WampServer: Podobnie jak XAMPP, zawiera Apache, MySQL, PHP i phpMyAdmin, ale jest dostępny tylko dla systemu Windows.
+   - MAMP: Jest to podobny pakiet, ale skonfigurowany specjalnie dla systemu macOS.
+   - LAMP: Jest to zestaw oprogramowania open source, który obejmuje Linux, Apache, MySQL i PHP (lub Perl lub Python), ale musisz zainstalować każdą część oddzielnie.
 
-3. Z jakich słów powstał akronim XAMPP?
+3. Akronim XAMPP pochodzi od pierwszych liter elementów oprogramowania wchodzącego w skład pakietu:
+   - X: Osobisty (Personal)
+   - A: Apache
+   - M: MySQL
+   - P: PHP
+   - P: Perl
 
 4. Do jakiego folderu należy wypakować pliki systemu CMS, aby zainstalować go za pomocą pakietu 
-XAMPP? Odpowiedź uzasadnij.  
+XAMPP? Odpowiedź uzasadnij.
+Pliki systemu CMS należy wypakować do folderu "htdocs" w katalogu, gdzie zainstalowany jest XAMPP. Dzieje się tak, ponieważ "htdocs" jest domyślnym katalogiem, który Apache serwuje jako korzeń witryny internetowej.
 
-5. Używając XAMPP przeprowadź test poprawności działania interpretera PHP 
+5. Używając XAMPP przeprowadź test poprawności działania interpretera PHP
+Trzeba utworzyć plik PHP i umieścić go w katalogu "htdocs" w katalogu instalacyjnym XAMPP. Następnie można otworzyć przeglądarkę internetową i wpisać adres URL do tego pliku PHP.
 
-6. Wykonaj ćwiczenie nr 2 ze strony 189 .
+6. Wykonaj ćwiczenie nr 2 ze strony 189 
