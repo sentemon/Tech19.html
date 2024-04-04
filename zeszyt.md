@@ -853,3 +853,68 @@ Pliki systemu CMS należy wypakować do folderu "htdocs" w katalogu, gdzie zains
 Trzeba utworzyć plik PHP i umieścić go w katalogu "htdocs" w katalogu instalacyjnym XAMPP. Następnie można otworzyć przeglądarkę internetową i wpisać adres URL do tego pliku PHP.
 
 6. Wykonaj ćwiczenie nr 2 ze strony 189 
+---------------------------------------------------------------------------------------------------------
+18 Personalizacja i zarządzanie systemem CMS Joomla!
+
+1. Przeprowadź analizę dostępnych systemów CMS do tworzenia witryn internetowych. Przygotuj 
+zestawienie zalet i wad dla trzech wyszukanych systemów zarządzania tre- ścią. Określ, który - twoim 
+zdaniem - jest najlepszy i uzasadnij dlaczego.
+
+WordPress:
+
+Zalety:
+Powszechna popularność i wsparcie społeczności, co oznacza bogatą bazę wtyczek i motywów.
+Łatwy w obsłudze interfejs użytkownika, co sprawia, że jest przyjazny dla początkujących.
+Regularne aktualizacje i rozbudowane możliwości SEO.
+
+Wady:
+Bezpieczeństwo może być problemem, ze względu na popularność podatność na ataki.
+Czasami mniej elastyczny niż inne systemy, szczególnie jeśli chodzi o zaawansowane modyfikacje.
+
+
+Joomla!:
+
+Zalety:
+Elastyczność i skalowalność, umożliwiająca dostosowanie do różnorodnych potrzeb.
+Zaawansowane uprawnienia użytkowników i system zarządzania treścią wielu autorów.
+Wsparcie dla wielu rodzajów zawartości i typów witryn.
+
+Wady:
+Mniej intuicyjny interfejs użytkownika w porównaniu do WordPressa.
+Wymaga pewnej znajomości technicznej do pełnego wykorzystania możliwości.
+
+2. Hasło administratora witryny CMS powinno być silne. Opisz zasady tworzenia silnych haseł.
+Składać się z co najmniej 8 znaków.
+Zawierać kombinację wielkich i małych liter, cyfr oraz znaków specjalnych.
+Nie być oparte na łatwo dostępnych informacjach osobistych.
+Nie zawierać słów z powszechnie znanych słowników.
+Nie być używane w innych kontach.
+
+3. Jaką rolę odgrywają pozycje w szablonie witryny?
+Pozycje w szablonie witryny określają, gdzie będą wyświetlane różne elementy na stronie, 
+takie jak menu nawigacyjne, nagłówek, stopka, boczne panele itp. 
+Pozycje te pozwalają organizować układ witryny i kontrolować, gdzie znajdują się różne treści i elementy.
+
+
+4. Opisz typy pozycji menu dostępne w CMS Joomla! 3.X
+Menu główne: Menu nawigacyjne głównej części witryny.
+Menu górne: Zazwyczaj wyświetlane powyżej nagłówka.
+Menu boczne: Zlokalizowane zazwyczaj po lewej lub prawej stronie strony.
+Menu stopki: Zawarte na dole strony, w stopce.
+Menu ukryte: Ukryte menu, które nie jest wyświetlane, ale może być używane do tworzenia linków.
+
+5. Wykonaj ćwiczenia 1,2,3,5,6 ze strony 203
+---------------------------------------------------------------------------------------------------------
+26 Edytory WYSIWYG
+
+1 Omów specyfikację edytorów WYSIWYG
+
+2 Czym powinny charakteryzować się edytory spełniające wymagania WYSIWYG? 
+
+3 Wyszukaj w zasobach sieciowych edytory spełniające wymagania WYSIWYG, a nieopisane w 
+podręczniku. Porównaj je i napisz, który - twoim zdaniem - jest najlepszy. 
+
+4 Czy notatnik systemowy można zaliczyć do edytorów spełniających zasady WYSIWYG? Uzasadnij 
+odpowiedź.
+
+5 Sprawdź, który edytor ma CMS WordPress oraz czy spełnia on zasady WYSIWYG.
