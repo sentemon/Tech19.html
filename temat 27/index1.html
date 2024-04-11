@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strona o polskim bohaterze narodowym</title>
+<script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+<style>
+    
+    #editor-container {
+        margin: 20px auto;
+        width: 80%;
+    }
+</style>
+</head>
+<body>
+
+<div id="editor-container">
+    
+    <h2>Jan III Sobieski</h2>
+    <p>Jan III Sobieski był królem Polski, który słynął ze swojego udziału w bitwie pod Wiedniem w 1683 roku, gdzie pokonał armię osmańską, ratując Europę przed inwazją turecką.</p>
+    <img src="23qliqt7.png" alt="Jan III Sobieski"  width="300px" height="400px">
+    <table border="1">
+        <tr>
+            <th>Rok urodzenia</th>
+            <th>Rok śmierci</th>
+            <th>Narodowość</th>
+        </tr>
+        <tr>
+            <td>1629</td>
+            <td>1696</td>
+            <td>Polska</td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    // Inicjalizacja CKEditor
+    CKEDITOR.replace('editor-container', {
+        height: '400px', 
+        readOnly: true 
+    });
+</script>
+</body>
+</html>

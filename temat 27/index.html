@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.2/skins/ui/oxide/skin.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.2/skins/ui/oxide/content.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.2/skins/content/default/content.min.css">
+    <title>Strona z edytorem</title>
+    <style>
+         #editor-container {
+        width: 100%;
+        height: 400px;
+    }
+    </style>
+</head>
+<body>
+    <div id="editor-container">
+        <textarea id="mytextarea"></textarea>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.10.2/tinymce.min.js"></script>
+<script>
+
+    tinymce.init({
+        selector: '#mytextarea', 
+        plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | link image',
+        skin: 'oxide-dark', 
+        content_css: 'default', 
+        height: 300, 
+        menubar: false 
+    });
+</script>
+</body>
+</html>
